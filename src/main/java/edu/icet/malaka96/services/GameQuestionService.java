@@ -16,12 +16,12 @@ public class GameQuestionService {
         //
     }
 
-    public void updateQuestion(String id, GameQuestion gameQuestion){
-        //
+    public boolean updateQuestion(String id, GameQuestion gameQuestion){
+        return true;
     }
 
-    public void deleteQuestion(String id){
-        //
+    public boolean deleteQuestion(String id){
+        return true;
     }
 
 }
